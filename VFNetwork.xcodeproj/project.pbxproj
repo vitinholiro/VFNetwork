@@ -32,6 +32,7 @@
 		A47CEE3C241BF82C00D87D7A /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE23241BF82B00D87D7A /* RequestProvider.swift */; };
 		A47CEE3D241BF82C00D87D7A /* RequestOrchestratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE25241BF82B00D87D7A /* RequestOrchestratorProtocol.swift */; };
 		A47CEE3E241BF82C00D87D7A /* RequestBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE26241BF82B00D87D7A /* RequestBuilderProtocol.swift */; };
+		A47CEE4F241C0A9000D87D7A /* VFNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE4E241C0A9000D87D7A /* VFNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		A47CEE23241BF82B00D87D7A /* RequestProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProvider.swift; sourceTree = "<group>"; };
 		A47CEE25241BF82B00D87D7A /* RequestOrchestratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestOrchestratorProtocol.swift; sourceTree = "<group>"; };
 		A47CEE26241BF82B00D87D7A /* RequestBuilderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilderProtocol.swift; sourceTree = "<group>"; };
+		A47CEE4E241C0A9000D87D7A /* VFNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				A47CEE1D241BF82B00D87D7A /* Service */,
 				A47CEDFD241BF7C900D87D7A /* VFNetwork.h */,
 				A47CEDFE241BF7C900D87D7A /* Info.plist */,
+				A47CEE4E241C0A9000D87D7A /* VFNetwork.swift */,
 			);
 			path = VFNetwork;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				A47CEE3D241BF82C00D87D7A /* RequestOrchestratorProtocol.swift in Sources */,
 				A47CEE28241BF82C00D87D7A /* APIBuilder.swift in Sources */,
 				A47CEE35241BF82C00D87D7A /* Environment.swift in Sources */,
+				A47CEE4F241C0A9000D87D7A /* VFNetwork.swift in Sources */,
 				A47CEE2D241BF82C00D87D7A /* ICodable.swift in Sources */,
 				A47CEE31241BF82C00D87D7A /* Cache.swift in Sources */,
 				A47CEE30241BF82C00D87D7A /* Cacheable.swift in Sources */,
@@ -364,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

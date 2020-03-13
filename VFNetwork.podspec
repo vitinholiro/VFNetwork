@@ -78,9 +78,9 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :path => './' }
+  spec.source       = { :git => "https://github.com/vitinholiro/VFNetwork.git", :tag => "master" }
 
-
+  # #{spec.version}
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
