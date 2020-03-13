@@ -33,6 +33,7 @@
 		A47CEE3D241BF82C00D87D7A /* RequestOrchestratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE25241BF82B00D87D7A /* RequestOrchestratorProtocol.swift */; };
 		A47CEE3E241BF82C00D87D7A /* RequestBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE26241BF82B00D87D7A /* RequestBuilderProtocol.swift */; };
 		A47CEE4F241C0A9000D87D7A /* VFNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE4E241C0A9000D87D7A /* VFNetwork.swift */; };
+		A47CEE50241C0E5300D87D7A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A47CEDFE241BF7C900D87D7A /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -276,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47CEE50241C0E5300D87D7A /* Info.plist in Resources */,
 				A47CEE36241BF82C00D87D7A /* Production.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,7 +447,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = VFNetwork/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,7 +469,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = VFNetwork/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
