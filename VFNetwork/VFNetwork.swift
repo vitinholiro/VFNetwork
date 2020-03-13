@@ -8,6 +8,7 @@
 
 import Foundation
 
-class VFNetwork {
-    var APIBuilder: APIBuilder!
+public class VFNetwork<Element: APIBuilder> {
+    open var APIBuilder: APIBuilder!
+    open var RequestProvider: RequestProvider<Element>!
 }
