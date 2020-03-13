@@ -8,12 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		A47CEDFF241BF7C900D87D7A /* VFNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = A47CEDFD241BF7C900D87D7A /* VFNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A47CEE27241BF82C00D87D7A /* APIBuilder+BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE06241BF82B00D87D7A /* APIBuilder+BaseURL.swift */; };
+		A47CEE28241BF82C00D87D7A /* APIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE07241BF82B00D87D7A /* APIBuilder.swift */; };
+		A47CEE29241BF82C00D87D7A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE08241BF82B00D87D7A /* APIError.swift */; };
+		A47CEE2A241BF82C00D87D7A /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE0A241BF82B00D87D7A /* HTTPTask.swift */; };
+		A47CEE2B241BF82C00D87D7A /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE0B241BF82B00D87D7A /* HTTPMethod.swift */; };
+		A47CEE2C241BF82C00D87D7A /* URLPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE0C241BF82B00D87D7A /* URLPath.swift */; };
+		A47CEE2D241BF82C00D87D7A /* ICodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE0D241BF82B00D87D7A /* ICodable.swift */; };
+		A47CEE2E241BF82C00D87D7A /* Disk.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE0F241BF82B00D87D7A /* Disk.swift */; };
+		A47CEE2F241BF82C00D87D7A /* CacheKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE11241BF82B00D87D7A /* CacheKey.swift */; };
+		A47CEE30241BF82C00D87D7A /* Cacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE13241BF82B00D87D7A /* Cacheable.swift */; };
+		A47CEE31241BF82C00D87D7A /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE14241BF82B00D87D7A /* Cache.swift */; };
+		A47CEE32241BF82C00D87D7A /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE16241BF82B00D87D7A /* ParameterEncoding.swift */; };
+		A47CEE33241BF82C00D87D7A /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE17241BF82B00D87D7A /* URLParameterEncoding.swift */; };
+		A47CEE34241BF82C00D87D7A /* JSONParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE18241BF82B00D87D7A /* JSONParameterEncoding.swift */; };
+		A47CEE35241BF82C00D87D7A /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE1A241BF82B00D87D7A /* Environment.swift */; };
+		A47CEE36241BF82C00D87D7A /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A47CEE1C241BF82B00D87D7A /* Production.xcconfig */; };
+		A47CEE37241BF82C00D87D7A /* RequestOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE1E241BF82B00D87D7A /* RequestOrchestrator.swift */; };
+		A47CEE38241BF82C00D87D7A /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE1F241BF82B00D87D7A /* RequestService.swift */; };
+		A47CEE39241BF82C00D87D7A /* RequestLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE20241BF82B00D87D7A /* RequestLogger.swift */; };
+		A47CEE3A241BF82C00D87D7A /* RequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE21241BF82B00D87D7A /* RequestExecutor.swift */; };
+		A47CEE3B241BF82C00D87D7A /* RequestHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE22241BF82B00D87D7A /* RequestHeader.swift */; };
+		A47CEE3C241BF82C00D87D7A /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE23241BF82B00D87D7A /* RequestProvider.swift */; };
+		A47CEE3D241BF82C00D87D7A /* RequestOrchestratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE25241BF82B00D87D7A /* RequestOrchestratorProtocol.swift */; };
+		A47CEE3E241BF82C00D87D7A /* RequestBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEE26241BF82B00D87D7A /* RequestBuilderProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A47CEDFA241BF7C900D87D7A /* VFNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VFNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47CEDFD241BF7C900D87D7A /* VFNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFNetwork.h; sourceTree = "<group>"; };
 		A47CEDFE241BF7C900D87D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47CEE06241BF82B00D87D7A /* APIBuilder+BaseURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIBuilder+BaseURL.swift"; sourceTree = "<group>"; };
+		A47CEE07241BF82B00D87D7A /* APIBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIBuilder.swift; sourceTree = "<group>"; };
+		A47CEE08241BF82B00D87D7A /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		A47CEE0A241BF82B00D87D7A /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		A47CEE0B241BF82B00D87D7A /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		A47CEE0C241BF82B00D87D7A /* URLPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLPath.swift; sourceTree = "<group>"; };
+		A47CEE0D241BF82B00D87D7A /* ICodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICodable.swift; sourceTree = "<group>"; };
+		A47CEE0F241BF82B00D87D7A /* Disk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disk.swift; sourceTree = "<group>"; };
+		A47CEE11241BF82B00D87D7A /* CacheKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheKey.swift; sourceTree = "<group>"; };
+		A47CEE13241BF82B00D87D7A /* Cacheable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cacheable.swift; sourceTree = "<group>"; };
+		A47CEE14241BF82B00D87D7A /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		A47CEE16241BF82B00D87D7A /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		A47CEE17241BF82B00D87D7A /* URLParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
+		A47CEE18241BF82B00D87D7A /* JSONParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoding.swift; sourceTree = "<group>"; };
+		A47CEE1A241BF82B00D87D7A /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		A47CEE1C241BF82B00D87D7A /* Production.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		A47CEE1E241BF82B00D87D7A /* RequestOrchestrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestOrchestrator.swift; sourceTree = "<group>"; };
+		A47CEE1F241BF82B00D87D7A /* RequestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
+		A47CEE20241BF82B00D87D7A /* RequestLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestLogger.swift; sourceTree = "<group>"; };
+		A47CEE21241BF82B00D87D7A /* RequestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestExecutor.swift; sourceTree = "<group>"; };
+		A47CEE22241BF82B00D87D7A /* RequestHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHeader.swift; sourceTree = "<group>"; };
+		A47CEE23241BF82B00D87D7A /* RequestProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProvider.swift; sourceTree = "<group>"; };
+		A47CEE25241BF82B00D87D7A /* RequestOrchestratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestOrchestratorProtocol.swift; sourceTree = "<group>"; };
+		A47CEE26241BF82B00D87D7A /* RequestBuilderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilderProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +94,114 @@
 		A47CEDFC241BF7C900D87D7A /* VFNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				A47CEE05241BF82B00D87D7A /* API */,
+				A47CEE0E241BF82B00D87D7A /* Cache */,
+				A47CEE15241BF82B00D87D7A /* Encoding */,
+				A47CEE19241BF82B00D87D7A /* Environment */,
+				A47CEE09241BF82B00D87D7A /* HTTP */,
+				A47CEE1D241BF82B00D87D7A /* Service */,
 				A47CEDFD241BF7C900D87D7A /* VFNetwork.h */,
 				A47CEDFE241BF7C900D87D7A /* Info.plist */,
 			);
 			path = VFNetwork;
+			sourceTree = "<group>";
+		};
+		A47CEE05241BF82B00D87D7A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEE06241BF82B00D87D7A /* APIBuilder+BaseURL.swift */,
+				A47CEE07241BF82B00D87D7A /* APIBuilder.swift */,
+				A47CEE08241BF82B00D87D7A /* APIError.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A47CEE09241BF82B00D87D7A /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEE0A241BF82B00D87D7A /* HTTPTask.swift */,
+				A47CEE0B241BF82B00D87D7A /* HTTPMethod.swift */,
+				A47CEE0C241BF82B00D87D7A /* URLPath.swift */,
+				A47CEE0D241BF82B00D87D7A /* ICodable.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		A47CEE0E241BF82B00D87D7A /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEE10241BF82B00D87D7A /* Enum */,
+				A47CEE12241BF82B00D87D7A /* Protocol */,
+				A47CEE0F241BF82B00D87D7A /* Disk.swift */,
+				A47CEE14241BF82B00D87D7A /* Cache.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		A47CEE10241BF82B00D87D7A /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEE11241BF82B00D87D7A /* CacheKey.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		A47CEE12241BF82B00D87D7A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEE13241BF82B00D87D7A /* Cacheable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		A47CEE15241BF82B00D87D7A /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEE16241BF82B00D87D7A /* ParameterEncoding.swift */,
+				A47CEE17241BF82B00D87D7A /* URLParameterEncoding.swift */,
+				A47CEE18241BF82B00D87D7A /* JSONParameterEncoding.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		A47CEE19241BF82B00D87D7A /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEE1A241BF82B00D87D7A /* Environment.swift */,
+				A47CEE1B241BF82B00D87D7A /* Config */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		A47CEE1B241BF82B00D87D7A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEE1C241BF82B00D87D7A /* Production.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A47CEE1D241BF82B00D87D7A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEE1E241BF82B00D87D7A /* RequestOrchestrator.swift */,
+				A47CEE1F241BF82B00D87D7A /* RequestService.swift */,
+				A47CEE20241BF82B00D87D7A /* RequestLogger.swift */,
+				A47CEE21241BF82B00D87D7A /* RequestExecutor.swift */,
+				A47CEE22241BF82B00D87D7A /* RequestHeader.swift */,
+				A47CEE23241BF82B00D87D7A /* RequestProvider.swift */,
+				A47CEE24241BF82B00D87D7A /* Protocols */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A47CEE24241BF82B00D87D7A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEE25241BF82B00D87D7A /* RequestOrchestratorProtocol.swift */,
+				A47CEE26241BF82B00D87D7A /* RequestBuilderProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47CEE36241BF82C00D87D7A /* Production.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +284,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47CEE3B241BF82C00D87D7A /* RequestHeader.swift in Sources */,
+				A47CEE2E241BF82C00D87D7A /* Disk.swift in Sources */,
+				A47CEE2A241BF82C00D87D7A /* HTTPTask.swift in Sources */,
+				A47CEE3C241BF82C00D87D7A /* RequestProvider.swift in Sources */,
+				A47CEE33241BF82C00D87D7A /* URLParameterEncoding.swift in Sources */,
+				A47CEE3D241BF82C00D87D7A /* RequestOrchestratorProtocol.swift in Sources */,
+				A47CEE28241BF82C00D87D7A /* APIBuilder.swift in Sources */,
+				A47CEE35241BF82C00D87D7A /* Environment.swift in Sources */,
+				A47CEE2D241BF82C00D87D7A /* ICodable.swift in Sources */,
+				A47CEE31241BF82C00D87D7A /* Cache.swift in Sources */,
+				A47CEE30241BF82C00D87D7A /* Cacheable.swift in Sources */,
+				A47CEE32241BF82C00D87D7A /* ParameterEncoding.swift in Sources */,
+				A47CEE2C241BF82C00D87D7A /* URLPath.swift in Sources */,
+				A47CEE2F241BF82C00D87D7A /* CacheKey.swift in Sources */,
+				A47CEE27241BF82C00D87D7A /* APIBuilder+BaseURL.swift in Sources */,
+				A47CEE38241BF82C00D87D7A /* RequestService.swift in Sources */,
+				A47CEE2B241BF82C00D87D7A /* HTTPMethod.swift in Sources */,
+				A47CEE37241BF82C00D87D7A /* RequestOrchestrator.swift in Sources */,
+				A47CEE34241BF82C00D87D7A /* JSONParameterEncoding.swift in Sources */,
+				A47CEE29241BF82C00D87D7A /* APIError.swift in Sources */,
+				A47CEE3A241BF82C00D87D7A /* RequestExecutor.swift in Sources */,
+				A47CEE3E241BF82C00D87D7A /* RequestBuilderProtocol.swift in Sources */,
+				A47CEE39241BF82C00D87D7A /* RequestLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
